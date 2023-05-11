@@ -16,17 +16,18 @@ export default createGlobalStyle`
     --white: #FFF;
     --green-one: #dbead5;
     --green-two: #14870c;
+    --blue-light: #ADD8E6;
   }
 
   body {
     background-color: var(--primary);
     color: var(--secondary);
-    font-family: 'Russo One', sans-serif;
+    font-family: 'Arimo', sans-serif;
     font-size: 1.4rem;
     font-weight: 500;
   }
 
-  ul {
+  ul, nav {
     list-style: none;
   }
 
