@@ -4,7 +4,7 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 200px 150px;
+  padding: 25px 150px;
   position: relative;
   background-size: cover;
   background-position: center;
@@ -36,7 +36,7 @@ export const Container = styled.div`
   }
 
   @media (max-width: 768px) {
-    padding: 100px 50px;
+    padding: 25px 50px;
   }
 `;
 
