@@ -1,3 +1,4 @@
+import Card from "../../components/Card";
 import { Container, Wrapper } from "./styles";
 
 const Home = () => {
@@ -7,7 +8,7 @@ const Home = () => {
         <h2>Encontre um imóvel</h2>
       </Container>
       <Wrapper>
-        <h2>Cards</h2>
+        <Card />
       </Wrapper>
     </>
   );

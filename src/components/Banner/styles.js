@@ -49,7 +49,7 @@ export const Text = styled.div`
   align-items: start;
   justify-content: start;
   flex-direction: column;
-  text-align: center; 
+  text-align: center;
 
   h2 {
     margin: 2rem 2rem;
@@ -63,7 +63,6 @@ export const Text = styled.div`
   p {
     color: var(--primary);
     margin: 0 0 0 1rem;
-    
   }
 
   span {
@@ -74,7 +73,7 @@ export const Text = styled.div`
     cursor: pointer;
     margin: 1rem 1rem;
     transition: all 0.8s;
-    
+
     &:hover {
       background-color: var(--white);
     }
@@ -88,13 +87,12 @@ export const Text = styled.div`
     }
     p {
       font-size: 1rem;
-      margin: 1rem 1rem;      
+      margin: 1rem 1rem;
     }
     span {
       font-size: 12px;
       padding: 12px 60px;
       margin: 1rem 1rem;
-     
     }
   }
 `;

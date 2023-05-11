@@ -13,6 +13,8 @@ export default createGlobalStyle`
     --gray: #d9d9d9;
     --blue: #4766ff;
     --white: #FFF;
+    --green-one: #dbead5;
+    --green-two: #14870c;
   }
 
   body {
