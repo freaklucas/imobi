@@ -1,4 +1,9 @@
 import { 
+  FaMapMarkerAlt, 
+  FaArrowRight 
+} from "react-icons/fa";
+
+import { 
   Container, 
   Description, 
   Img,
@@ -17,9 +22,16 @@ const Card = () => {
       <Description>
         <h4>Apartamento</h4>
         <Items>
-          <span></span>
+          <span>
+            <FaMapMarkerAlt />
+            Jardim Goiás, Rio Verde
+          </span>
           <span>R$ 2.100,00</span>
         </Items>
+        <a href="/">
+          Detalhes
+          <FaArrowRight />
+        </a>
       </Description>
     </Container>
   );

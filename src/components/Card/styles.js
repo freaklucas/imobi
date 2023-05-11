@@ -30,14 +30,20 @@ export const Description = styled.div`
     font-weight: 600;
     margin-bottom: 10px;
   }
+  a:hover:nth-of-type(1) {
+    color: var(--gray-two);
+  }
 `;
 
 export const Items = styled.div`
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  span {
+
+  span:nth-of-type(2) {
     margin-bottom: 10px;
-    color: var(--green-two)
+    color: var(--green-two);
   }
+
+
 `;
