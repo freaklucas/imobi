@@ -24,6 +24,7 @@ const Imobi = () => {
             />
           </Thumb>
           <Description>
+            <h2>Apartamento / Alugar</h2>
             <p>Descrição</p>
           </Description>
         </Left>
@@ -45,9 +46,9 @@ const Imobi = () => {
           <ProfileFormContact>
             <h3>Contrate o anunciate</h3>
             <form>
-              <input type="text" />
-              <input type="text" />
-              <textarea type="text" />
+              <input type="text" placelder="Nome" />
+              <input type="text" placelder="Email" />
+              <textarea type="text" cols="30" rows="10" placeholder="Mensagem" />
               <button>Enviar mensagem</button>
             </form>
           </ProfileFormContact>

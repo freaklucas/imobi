@@ -17,6 +17,7 @@ export default createGlobalStyle`
     --green-one: #dbead5;
     --green-two: #14870c;
     --blue-light: #ADD8E6;
+    
   }
 
   body {
