@@ -46,7 +46,7 @@ export const Text = styled.div`
   z-index: 1;
   display: flex;
   justify-items: flex-start;
-  align-items: start;
+  align-items: center;
   justify-content: start;
   flex-direction: column;
   text-align: center;
@@ -68,11 +68,22 @@ export const Text = styled.div`
   span {
     background-color: var(--blue);
     border: 10px;
-    font-size: 14px;
     padding: 12px 120px;
     cursor: pointer;
     margin: 1rem 1rem;
     transition: all 0.8s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 700;
+    border-radius: 10px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    
+    align-items: center;
+    justify-content: center;
+
 
     &:hover {
       background-color: var(--white);
